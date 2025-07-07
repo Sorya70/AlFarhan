@@ -81,7 +81,7 @@ const ContactClient = ({ dict, locale }) => {
             </Link>
             {isArabic ? <IoIosArrowBack /> : <IoIosArrowForward />}
             <Link
-              href="/product-category"
+              href="/job-category"
               className="text-white hover:text-red-800 duration-300"
             >
               {dict.navigation.contact}

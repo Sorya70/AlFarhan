@@ -16,8 +16,8 @@ const ServicesSection = ({ dict, header }) => {
       {/* Logo background */}
       <div className="absolute inset-0 flex items-center justify-center pointer-events-none z-0">
         <img
-          src="/images/logo-h-brothers.png"
-          alt="H Brothers Logo Background"
+          src="/images/borcelle white.png"
+          alt="Al Farhan Logo Background"
           className="w-[50vw] max-w-4xl opacity-30 select-none"
           draggable={false}
         />

@@ -14,7 +14,7 @@ export default async function Header({ locale }) {
     {
       id: 2,
       title: navigation.product,
-      href: "/product-category",
+      href: "/job-category",
     },
     { id: 3, title: navigation.services, href: "/services" },
     { id: 4, title: navigation.gallery, href: "/gallery" },
@@ -28,7 +28,7 @@ export default async function Header({ locale }) {
         <Link href={`/${locale}`} className="inline-block">
           <Image
             src="/images/borcelle.png"
-            alt="H Brothers Logo"
+            alt="AL Farhan Logo"
             width={140}
             height={50}
             className="h-auto w-auto object-contain"

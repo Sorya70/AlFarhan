@@ -39,7 +39,7 @@ const AboutSection = ({ dict }) => {
           <div className="rounded-3xl flex overflow-hidden shadow-2xl border-2 border-gray-100 transition-transform hover:scale-105 duration-300">
             <Image
               src="/images/H-brothers.webp"
-              alt="H BROTHERS Truck"
+              alt="Al Farhan logo"
               width={420}
               height={280}
               className="object-cover w-full h-72"

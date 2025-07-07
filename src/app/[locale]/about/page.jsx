@@ -44,7 +44,7 @@ const AboutUs = async ({ params }) => {
             </Link>
             {isArabic ? <IoIosArrowBack /> : <IoIosArrowForward />}
             <Link
-              href="/product-category"
+              href="/job-category"
               className="text-white hover:text-red-800 duration-300"
             >
               {dict.aboutPage.about}
@@ -61,7 +61,7 @@ const AboutUs = async ({ params }) => {
               <div className="relative w-full h-64 md:h-[400px]">
                 <Image
                   src="/images/H-brothers.webp"
-                  alt="H Brothers"
+                  alt="Al Farhan"
                   fill
                   className="object-cover rounded-md"
                   priority

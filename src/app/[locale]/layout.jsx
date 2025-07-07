@@ -13,7 +13,7 @@ const cairo = Cairo({
 });
 
 export const metadata = {
-  title: "HBrothers - Passionate About People and Food Supply",
+  title: "Al Farhan - Passionate About People and Jobs",
   description:
     "Leader in the supply of food stuff items through providing enhanced services, relationship and profitability",
 };

@@ -25,7 +25,7 @@ const CallToAction = ({ dict }) => {
               {dict.callToAction.contact}
             </Link>
             <Link
-              href="/product-category"
+              href="/job-category"
               className="group inline-flex items-center justify-center gap-2 border-2 border-white px-8 py-3 rounded-full hover:bg-white hover:text-red-800 transition font-semibold shadow-lg text-white text-lg"
             >
               {dict.callToAction.explore}

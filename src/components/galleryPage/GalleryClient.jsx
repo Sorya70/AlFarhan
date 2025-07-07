@@ -33,7 +33,7 @@ const GalleryClient = ({ dict, locale }) => {
       { id: 16, src: "/images/gallery/ki09MOyg.jpeg", alt: "Gallery Image 16" },
       { id: 17, src: "/images/gallery/l5Pk0Msg.jpeg", alt: "Gallery Image 17" },
       { id: 18, src: "/images/gallery/Ll5WCgrg.jpeg", alt: "Gallery Image 18" },
-      { id: 19, src: "/images/gallery/mNJJrL7w.jpeg", alt: "Gallery Image 19" },
+      { id: 19, src: "/images/gallery/0atxcjiQ.jpeg", alt: "Gallery Image 19" },
       { id: 20, src: "/images/gallery/nCMSP5ag.jpeg", alt: "Gallery Image 20" },
       { id: 21, src: "/images/gallery/ne9LFRYg.jpeg", alt: "Gallery Image 21" },
       { id: 22, src: "/images/gallery/OcGBm50A.jpeg", alt: "Gallery Image 22" },
@@ -104,12 +104,12 @@ const GalleryClient = ({ dict, locale }) => {
               {dict.navigation.home}
             </Link>
             {isArabic ? <IoIosArrowBack /> : <IoIosArrowForward />}
-            <Link
-              href="/product-category"
+            {/* <Link
+              href="/job-category"
               className="text-white hover:text-red-800 duration-300"
             >
               {dict.navigation.gallery}
-            </Link>
+            </Link> */}
           </div>
         </div>
       </div>
