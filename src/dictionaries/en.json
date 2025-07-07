@@ -1,0 +1,267 @@
+{
+  "navigation": {
+    "home": "Home",
+    "product": "Job Categories",
+    "services": "Services",
+    "gallery": "gallery",
+    "about": "About Us",
+    "contact": "Contact Us"
+  },
+  "hero": {
+    "cta": "Explore Products",
+    "sectionTitle": "Why Choose Al Farhan?",
+    "slides": [
+      {
+        "discount": "Who We Are",
+        "name": "Al Farhan International CONSULTANCY",
+        "description": "A trusted manpower consultancy connecting skilled professionals with global job opportunities. We specialize in overseas employment services, ensuring career growth and success abroad.",
+        "features": [
+          "Expertise in overseas job placements",
+          "Wide network of global employers",
+          "Transparent recruitment process",
+          "Empowering careers worldwide"
+        ]
+      },
+      {
+        "discount": "Our Vision",
+        "name": "Global Workforce Solutions",
+        "description": "To be the most respected and reliable manpower consultancy, providing top talent to international markets with honesty, transparency, and commitment.",
+        "features": [
+          "Trusted international recruitment partner",
+          "Ethical and transparent hiring practices",
+          "Strong employer & candidate relationships",
+          "Creating global career pathways"
+        ]
+      },
+      {
+        "discount": "Our Mission",
+        "name": "Building Global Careers",
+        "description": "Helping individuals secure meaningful job opportunities overseas, particularly in the Gulf region, while supporting employers in finding skilled and motivated talent.",
+        "features": [
+          "Providing career opportunities abroad",
+          "Supporting economic growth through employment",
+          "Enhancing lives through global job placements",
+          "Connecting talent with opportunity worldwide"
+        ]
+      }
+    ],
+    "features": [
+      {
+        "title": "Trusted Overseas Placement",
+        "description": "Connecting skilled candidates with reputable employers abroad"
+      },
+      {
+        "title": "Wide Employer Network",
+        "description": "Collaborating with top companies in Kuwait, Dubai, and beyond"
+      },
+      {
+        "title": "Candidate-Centric Approach",
+        "description": "Guiding and preparing individuals for successful global careers"
+      },
+      {
+        "title": "Ethical Recruitment Practices",
+        "description": "Ensuring transparent and compliant hiring processes"
+      }
+    ]
+  },
+  "video": {
+    "title": "Get to Know Us",
+    "description": "Discover our services and values in this short introduction video."
+  },
+  "aboutSection": {
+    "badge": "Who We Are",
+    "title": "About",
+    "highlight": "Al Farhan International",
+    "description": "Al Farhan International is a trusted overseas recruitment agency connecting skilled professionals with global career opportunities. We specialize in deploying candidates to Gulf countries like Kuwait and Dubai, ensuring ethical recruitment and career success.",
+    "features": [
+      "Trusted Overseas Placement Services",
+      "Strong Network of International Employers",
+      "Candidate-Centric Approach for Career Growth",
+      "Ethical & Transparent Recruitment Process"
+    ]
+  },
+  "services": [
+    {
+      "id": 1,
+      "title": "Overseas Recruitment",
+      "descOne": "We help skilled and semi-skilled workers find employment opportunities in Gulf countries such as Kuwait, Dubai, Qatar, and Saudi Arabia.",
+      "descTwo": "Our recruitment process is transparent, ethical, and aligned with international hiring standards."
+    },
+    {
+      "id": 2,
+      "title": "Visa & Documentation Assistance",
+      "descOne": "We assist candidates with all essential documentation including work visas, medical checks, and attestation services.",
+      "descTwo": "Our experienced team ensures a hassle-free and compliant migration process."
+    },
+    {
+      "id": 3,
+      "title": "Pre-Departure Training",
+      "descOne": "We provide orientation and soft skills training to help candidates adapt to foreign work environments.",
+      "descTwo": "Training includes cultural awareness, job responsibilities, and language basics for smooth transition abroad."
+    },
+    {
+      "id": 4,
+      "title": "Employer Partnerships",
+      "descOne": "We maintain strong partnerships with reputable employers across industries including construction, hospitality, healthcare, and retail.",
+      "descTwo": "Our partnerships ensure steady demand for skilled manpower and long-term career opportunities for candidates."
+    },
+    {
+      "id": 6,
+      "title": "Local Talent Empowerment",
+      "descOne": "We are committed to uplifting local communities by creating global career opportunities for youth and skilled workers.",
+      "descTwo": "Our consultancy empowers individuals through employment, financial independence, and skill development."
+    },
+    {
+      "id": 7,
+      "title": "Ethical & Transparent Services",
+      "descOne": "We follow ethical recruitment practices in compliance with international labor laws.",
+      "descTwo": "Our consultancy ensures fair fees, transparent processes, and full candidate support throughout the journey."
+    }
+  ],
+  "sectionTitle": "Our Services",
+  "testimonialsTitle": "What Our Clients Say",
+  "testimonials": [
+    "Al Farhan International helped me find a job in Kuwait. The process was smooth and transparent from start to finish.",
+    "Their visa and documentation support made my overseas job journey stress-free. Highly recommended!",
+    "I appreciated the pre-departure training. It really prepared me for my new role in Dubai.",
+    "Thanks to their strong employer network, I got a job in hospitality within a few weeks of applying.",
+    "They truly care about the candidates. Their team guided me through every step with patience and clarity.",
+    "What impressed me most was their honesty and ethical recruitment process—no hidden fees or false promises.",
+    "Excellent overseas placement services. I am now working in Kuwait and supporting my family back home.",
+    "A trustworthy consultancy that helped me change my life through a secure overseas career opportunity.",
+    "Their professional approach and global connections gave me the confidence to work abroad."
+  ],
+  "footer": {
+    "about": "Al Farhan International is a trusted company specializing in importing and distributing essential consumer goods. With strong international partnerships and a wide distribution network, we serve communities with integrity and reliability.",
+    "quickLinksTitle": "Quick Links",
+    "contactTitle": "Contact Us",
+    "businessHours": "Business Hours",
+    "hours": "Monday - Saturday: 10:00 AM - 6:00 PM\nSunday: Closed",
+    "weAccept": "We Accept:",
+    "securePayments": "Secure Payments",
+    "protectedBySSL": "Protected by SSL",
+    "copyright": "© 2025 Al Farhan International. All rights reserved.",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "cookiePolicy": "Cookie Policy",
+    "accessibility": "Accessibility",
+    "powered": "Powered by",
+    "links": {
+      "home": "Home",
+      "products": "Products",
+      "services": "Services",
+      "about": "About Us",
+      "contact": "Contact Us"
+    },
+    "address": "First floor shop no 01, Near by pass, opposite jangid bhavan Prajapti complax, Bissau, Rajasthan 331027",
+    "phone": "+91 96100 93607",
+    "email": "info@AlFarhanInternational.com"
+  },
+  "productsPage": {
+    "products": "Jobs",
+    "home": "Home",
+    "all": "All Jobs",
+    "in_stock": "Opening",
+    "out_of_stock": "Out of Stock",
+    "showing": "Showing",
+    "next": "Next",
+    "prev": "prev",
+    "categoryNames": {
+      "biscuits": "Biscuits",
+      "sugar": "Sugar",
+      "milk-powder": "Milk Powder",
+      "juice-powder": "Juice Powder",
+      "wheat-flour": "Wheat Flour",
+      "cooking-oil": "Cooking Oil",
+      "sweets": "Sweets",
+      "tomato-paste": "Tomato Paste",
+      "rice": "Rice",
+      "soft-drinks": "Soft Drinks",
+      "soap": "Soap"
+    }
+  },
+  "servicesPage": {
+    "services": "services",
+    "home": "Home"
+  },
+  "callToAction": {
+    "heading": "Get in Touch — Start Your Overseas Career Today",
+    "description": "Whether you're a job seeker looking for overseas opportunities or an employer searching for skilled talent, our team is here to help you succeed.",
+    "contact": "Contact Us Now",
+    "explore": "Explore Job Opportunities"
+  },
+  "aboutPage": {
+    "about": "About Us",
+    "ourValuesTitle": "Our Values",
+    "ourStoryTitle": "Our Story",
+    "ourStoryDescription1": "Since 2020, AlFarhanInternational has been a trusted partner in overseas recruitment, connecting thousands of skilled professionals with employers across the Gulf region, including Kuwait, Dubai, and Saudi Arabia.",
+    "ourStoryDescription2": "Our mission is to create life-changing global career opportunities for individuals while providing reliable and ethical workforce solutions to international employers. With a candidate-first approach and a commitment to excellence, we continue to shape successful career journeys abroad.",
+    "highlights": [
+      "Trusted Overseas Recruitment",
+      "Global Employer Network",
+      "Candidate-Centric Approach",
+      "Ethical Hiring Practices"
+    ],
+    "companyValues": [
+      {
+        "title": "Integrity & Transparency",
+        "description": "We follow ethical recruitment processes with honesty, fairness, and complete transparency."
+      },
+      {
+        "title": "Empowering Careers",
+        "description": "We empower candidates with the right opportunities, skills, and guidance for successful careers abroad."
+      },
+      {
+        "title": "Strong Global Partnerships",
+        "description": "Our network of reputed international employers ensures diverse and rewarding job placements."
+      },
+      {
+        "title": "Commitment to Excellence",
+        "description": "We continuously strive to provide seamless recruitment services that benefit both candidates and employers."
+      }
+    ],
+    "stats": [
+      {
+        "number": "10+",
+        "label": "Years of Experience"
+      },
+      {
+        "number": "50+",
+        "label": "Partner Employers"
+      },
+      {
+        "number": "1000+",
+        "label": "Successful Placements"
+      },
+      {
+        "number": "10+",
+        "label": "Countries Served"
+      }
+    ]
+  },
+ "contactPage": {
+  "title": "Reach Out to Us",
+  "getTitle": "Get in Touch",
+  "subtitle": "Looking to work abroad or hire international talent? Fill out the form below and our team will contact you shortly.",
+  "form": {
+    "name": "Your Name",
+    "email": "Your Email",
+    "subject": "Subject",
+    "message": "Your Message",
+    "submit": "Submit Inquiry"
+  },
+  "locationTitle": "Visit Our Office",
+  "info": {
+    "location": "Our Office Location",
+    "phone": "Phone Number",
+    "email": "Email Address",
+    "hours": "Office Hours",
+    "workingDays": "Monday - Saturday: 10:00 AM - 6:00 PM",
+    "sunday": "Sunday: Closed"
+  }
+},
+"galleryPage": {
+  "subtitle": "Explore Our Recruitment Journey"
+}
+
+}
