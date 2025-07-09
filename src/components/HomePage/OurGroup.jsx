@@ -1,11 +1,11 @@
-const ServicesSection = ({ dict, header }) => {
+const OurGroup = ({ dict, header }) => {
   const serviceImages = {
-    1: "/images/services/1.jpg",
-    2: "/images/services/2.jpg",
-    3: "/images/services/3.jpg",
-    4: "/images/services/4.jpg",
-    6: "/images/services/5.jpg",
-    7: "/images/services/6.jpg",
+    1: "/images/services/DSC09850.webp",
+    2: "/images/services/DSC09860.webp",
+    3: "/images/services/DSC09856.webp",
+    4: "/images/services/DSC09937.webp",
+    // 6: "/images/services/DSC09917.webp",
+    // 7: "/images/services/DSC09923.webp",
   };
 
   return (
@@ -27,7 +27,7 @@ const ServicesSection = ({ dict, header }) => {
           {header || ""}
         </h2>
         <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-3">
-          {dict.services.map((service) => (
+          {dict.ourgroup.map((service) => (
             <div
               key={service.id}
               className="group bg-white/90 rounded-3xl shadow-xl border border-gray-100 p-7 flex flex-col h-full transition-transform hover:-translate-y-2 hover:shadow-2xl duration-300"
@@ -55,4 +55,4 @@ const ServicesSection = ({ dict, header }) => {
   );
 };
 
-export default ServicesSection;
+export default OurGroup;

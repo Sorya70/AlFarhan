@@ -38,10 +38,10 @@ const Footer = ({ locale }) => {
             <div>
               <div className="mb-6 flex items-center">
                 <Image
-                  src="/images/borcelle white.png"
+                  src="/images/Alfarhan.png"
                   alt="Al Farhan"
-                  width={220}
-                  height={40}
+                  width={110}
+                  height={20}
                   className="mx-3"
                 />
               </div>
@@ -73,7 +73,7 @@ const Footer = ({ locale }) => {
                 {dict.footer.quickLinksTitle}
               </h3>
               <ul className="space-y-2">
-                {["home", "job-category", "services", "about", "contact"].map(
+                {["home", "ourgroup", "services", "about", "contact"].map(
                   (key) => (
                     <li key={key}>
                       <Link

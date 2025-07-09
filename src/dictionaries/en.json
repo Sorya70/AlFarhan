@@ -1,9 +1,10 @@
 {
   "navigation": {
     "home": "Home",
-    "product": "Job Categories",
+    "product": "Our Group",
     "services": "Services",
-    "gallery": "gallery",
+    "gallery": "Recruitment Process",
+    "clients": "Our Clients",
     "about": "About Us",
     "contact": "Contact Us"
   },
@@ -83,39 +84,39 @@
   "services": [
     {
       "id": 1,
-      "title": "Overseas Recruitment",
-      "descOne": "We help skilled and semi-skilled workers find employment opportunities in Gulf countries such as Kuwait, Dubai, Qatar, and Saudi Arabia.",
-      "descTwo": "Our recruitment process is transparent, ethical, and aligned with international hiring standards."
+      "title": "Oil and Gas Recruitment Services",
+      "descOne": "Middle East and gulf countries like Saudi Arabia, Bahrain, Kuwait, UAE, Qatar, and Oman are famous for their oil reserves and their contribution to the world in terms of oil and petroleum.Saudi Arabia is one of the leading country in producing oil and gas for the world, with a proven oil reserves of 266.2 billion barrels, Saudi Arabia constitutes 15.7% of the world's oil reserves and is ranked as the largest exporter of oil and petroleum in the world.",
+      "descTwo": "Ranging from drilling engineer to petroleum engineer one can explore variety of jobs in oil and gas industries in Middle East and gulf countries like Saudi Arabia, Bahrain, Kuwait, UAE, Qatar, and Oman. The only question is how? And Smart Training & Sourcing Company is the answer.The Oil & Gas sector has been one of the sectors in which Smart Training & Sourcing Company offers cost effective oil and gas recruitment services in Middle East and gulf countries like Saudi Arabia, Bahrain, Kuwait, UAE, Qatar, and Oman, for clients and candidates. For all aspects of oil and petroleum industries, Smart Training & Sourcing Company provides the best recruitment services."
     },
     {
       "id": 2,
-      "title": "Visa & Documentation Assistance",
-      "descOne": "We assist candidates with all essential documentation including work visas, medical checks, and attestation services.",
-      "descTwo": "Our experienced team ensures a hassle-free and compliant migration process."
+      "title": "Construction Recruitment Agency",
+      "descOne": "Construction is one of the eminent sectors that hold a significant value in any nation’s economic growth, right from constructing the country's basic transportation to building the pride-rich sky scrapers. The skilled manpower involved holds some righteous positions in construction and infrastructure industries in the Middle East and gulf countries.",
+      "descTwo": "Construction sector includes a vast spectrum of opportunities ranging from a skilled mason to highly qualified and experienced civil engineers from finely skilled carpenters to highly expert electrician from dignified plumbers to hardworking welders, and glazier's to plasterer's. Smart Training & Sourcing Company houses them all.To meet all your construction and infrastructure's requirements the right step would be to take assistance of Smart Training & Sourcing Company's construction recruitment services."
     },
     {
       "id": 3,
-      "title": "Pre-Departure Training",
-      "descOne": "We provide orientation and soft skills training to help candidates adapt to foreign work environments.",
-      "descTwo": "Training includes cultural awareness, job responsibilities, and language basics for smooth transition abroad."
+      "title": "Manufacturing Recruitment Agency",
+      "descOne": "Since labor or manpower in a very critical requirement in manufacturing it is not always possible to increase production at a short notice. It’s critical because you need more manpower to increase production at the certain point of time but in days of declining demand, you will have a surplus of manpower who will weigh heavily on your expenses. So it benefits to take the help of manpower consultants who specialize as a Production and Manufacturing recruitment agency.",
+      "descTwo": "Production and Manufacturing sector relies on the market force that has an immensive impact on the level of production of any goods and products of any industries. The rate of manufacturing depends upon the demand of product or other market aspects like Consumers purchasing power.The important factor in manufacturing industries is the labor or manpower involved, thus choosing the right manpower and the right and experienced manpower recruitment agency"
     },
     {
       "id": 4,
-      "title": "Employer Partnerships",
-      "descOne": "We maintain strong partnerships with reputable employers across industries including construction, hospitality, healthcare, and retail.",
-      "descTwo": "Our partnerships ensure steady demand for skilled manpower and long-term career opportunities for candidates."
+      "title": "Manpower Recruitment Services",
+      "descOne": "Smartco is well known name in the field of Manpower Recruitment Industy from long ago. Customer satisfaction is our first priority.So we deliver qualitative manpower solutions to our clients. As we have reached at this level its because of of them.Our high quality manpower solutions ensure by us with the use of the various techniques and tricks. We are frequently use to update our manpower recruitment services to make career.",
+      "descTwo": "We are proud of on our manpower agency team as it is bound to offer a great satisfaction. Our clients and their appreciation have always been a matter of priority for us. We believe that when our customers deal with us, it must be a unique experience for both of us.We are one of the best manpower recruitment service provider in Mumbai, India, Saudi Arabia, Oman, Kuwait, Qatar, Oman etc. So let us give us an opportunity to serve you better to recruit right manpower to achieve desired target, success for your Industry."
     },
     {
       "id": 6,
-      "title": "Local Talent Empowerment",
-      "descOne": "We are committed to uplifting local communities by creating global career opportunities for youth and skilled workers.",
-      "descTwo": "Our consultancy empowers individuals through employment, financial independence, and skill development."
+      "title": "IT and Telecom Recruitment Services",
+      "descOne": "Information and Technology is on the verge of expansion, with numerous inventions and innovations, the growth in IT sector is mesmerizing, there are notorious subfields in IT industries that demands excellent and intellectual Workforces, and thus there is a never-ending demand for IT professionals in the Middle East and gulf countries.",
+      "descTwo": "IT professionals are considered as the kind of assets that holds an eminent significance in any nation’s economic growth. In the coming years Information and Technology sector is considered to be the top industries that will provide the highest employment rate than any other sectors."
     },
     {
       "id": 7,
-      "title": "Ethical & Transparent Services",
-      "descOne": "We follow ethical recruitment practices in compliance with international labor laws.",
-      "descTwo": "Our consultancy ensures fair fees, transparent processes, and full candidate support throughout the journey."
+      "title": "Healthcare Recruitment Agency",
+      "descOne": "We have the technical capability to shortlist and evaluate qualified consultant doctors of different specialties, such as medical, surgical, gynecology, ophthalmology, orthopedics, cardiology, etc.",
+      "descTwo": "We have recruited and deployed registered nurses of different specialties, such as Operation Theater, Intensive Care Unit, Labor and Delivery and Outpatient Clinic. Recruitment for paramedical staff such as Radiology Technicians, Lab Technicians and EMS Technicians have also been undertaken successfully.We as the best Healthcare Recruitment Agency cater to the recruitment needs of the US healthcare industry. A specialised team has been put in place to recruit registered nurses to United States of America. We provide complete assistance to registered nurses to prepare for various exams, such as CGFNS, IELTS, Inglex, etc."
     }
   ],
   "sectionTitle": "Our Services",
@@ -130,6 +131,38 @@
     "Excellent overseas placement services. I am now working in Kuwait and supporting my family back home.",
     "A trustworthy consultancy that helped me change my life through a secure overseas career opportunity.",
     "Their professional approach and global connections gave me the confidence to work abroad."
+  ],
+  "ourgroup": [
+    {
+      "id": 1,
+      "title": "Four Brothers Group – Mumbai",
+      "descOne": "We would like to introduce ourselves as one of the renowned Manufacturer / Exporters India for exporting of 100% Garments such as Baba Suites, Gown, Maxis, embroidery Works for all types of Ladies & Children wears according to buyers choice on most competitive prices.",
+      "descTwo": "Since long, we have been serving our honorable foreign buyers of GCC countries in exporting of all kind of Garments on most competitive prices within specified period. We have in knowledge that your esteemed company use to import different types of Garments from many suppliers and we like to serve your fast growing business with your satisfaction. In this connection , we append herewith our Companies Profile for kind perusal. We therefore, request you to please contact us with confidence so that we can send your requirements through Sharp mail."
+    },
+    {
+      "id": 2,
+      "title": "Undulus International HR Consultancy",
+      "descOne": "Undulus International is a fast growing, government licensed manpower recruitment company in the Pakistan with an ever-increasing list of satisfied clients. We specialize for recruitment of technical, skilled manpower and professionals. We are committed to provide total solutions to our clients' manpower recruitment concerns and candidates.",
+      "descTwo": "Our Office is well equipped with computers, Fax and email services and it has always been our intention to provide better services to our clients with the help of our highly professional staff. Our Chief Executive supervises all activities relating to the hiring & processing of visa. We provide highly qualified and skilled manpower that meets the standard of our valued clients. We also ensure that our Clients are served in a better way and all processing is conducted within the time, which is the best required satisfaction of our clients.We are working for our clients since long as a Manpower Recruiting Agent and have always maintained best & long lasting relations with our clients for mutual interests."
+    },
+    {
+      "id": 3,
+      "title": "Khalifa Suleman Alhamrashdi Trading",
+      "descOne": "Founded in Muscat, Oman recently is a group of trading companies driving strong growth in two distinct core business exports sourcing and manufacturing through Four Brothers Group,Alhamrashdi Manufacturing & Trading Limited offers a range of services precisely tailored to the needs of our partners. Services include manufacturing, trading, distributing, design concept to export to any part of the Globe.",
+      "descTwo": "Alhamrashdi Manufacturing & Trading Limited has several manufacturing plants located in Indian, KSA & UAE, Pakistan to produce pillow cover, cushion, comforter, sofa cover, sweater knitted and jersey knitted. The company is particularly strong in manufacturing quality fashionable home furnishing accessories, sweater knitted and jersey knitted garments. The company provides the latest trends, innovative fabrications and accessories development, garments development, providing inspirations, latest garment ideas and textiles information through world - class exhibitions such as Premier Vision."
+    },
+    {
+      "id": 4,
+      "title": "Andalus International HR Consultancy",
+      "descOne": "Andulus International is a fast growing, government licensed manpower recruitment company with an ever-increasing list of satisfied clients. We specialize for recruitment of technical, skilled manpower and professionals. Andulus International has a flexible approach and can work to specific requirements of particular projects / clients can also establish and provide a complete team of workers specialists, who can carry out common or specific tasks independently.",
+      "descTwo": "Our Office is well equipped with computers, Fax and email services and it has always been our intention to provide better services to our clients with the help of our highly professional staff. Our Chief Executive supervises all activities relating to the hiring & processing of visa. We provide highly qualified and skilled manpower that meets the standard of our valued clients. We also ensure that our Clients are served in a better way and all processing is conducted within the time, which is the ` required satisfaction of our clients."
+    },
+     {
+      "id": 6,
+      "title": "Undulus Way International Co",
+      "descOne": "Like many branches in each part of the Globe, we made our set-up in KSA too to focus the companies located in eastern part of KSA. We noticed that East part of the KSA is full of Industries and recruiting the new workers regularly from overseas, particularly form India, Pakistan & Bangladesh.",
+      "descTwo": "Our office in eastern part is well located in Al-Khobar, Near Silver Tower. From where we keep trying to provide our services to all manpower searching companies.We extend our cordial hand and appeal all companies to forward their manpower requirements enabling us to offer our services and could prove ourselves.We extend our cordial hand and appeal all companies to forward their manpower requirements enabling us to offer our services and could prove ourselves.Looking forward to receive your manpower requirements and assuring you of our best services and prompt attention at all times."
+    }
   ],
   "footer": {
     "about": "Al Farhan International is a trusted company specializing in importing and distributing essential consumer goods. With strong international partnerships and a wide distribution network, we serve communities with integrity and reliability.",
@@ -148,13 +181,13 @@
     "powered": "Powered by",
     "links": {
       "home": "Home",
-      "job-category": "Job Category",
+      "ourgroup": "Our Group",
       "services": "Services",
       "about": "About Us",
       "contact": "Contact Us"
     },
     "address": "First floor shop no 01, Near by pass, opposite jangid bhavan Prajapti complax, Bissau, Rajasthan 331027",
-    "phone": "+91 96100 93607",
+    "phone": "+91 8239093607",
     "email": "info@AlFarhanInternational.com"
   },
   "productsPage": {
@@ -184,6 +217,10 @@
     "services": "services",
     "home": "Home"
   },
+  "ourgroupPage": {
+    "ourgroup": "Our Group",
+    "home": "Home"
+  },
   "callToAction": {
     "heading": "Get in Touch — Start Your Overseas Career Today",
     "description": "Whether you're a job seeker looking for overseas opportunities or an employer searching for skilled talent, our team is here to help you succeed.",
@@ -194,7 +231,7 @@
     "about": "About Us",
     "ourValuesTitle": "Our Values",
     "ourStoryTitle": "Our Story",
-    "ourStoryDescription1": "Since 2020, AlFarhanInternational has been a trusted partner in overseas recruitment, connecting thousands of skilled professionals with employers across the Gulf region, including Kuwait, Dubai, and Saudi Arabia.",
+    "ourStoryDescription1": "Since Aug 2015, AlFarhanInternational has been a trusted partner in overseas recruitment, connecting thousands of skilled professionals with employers across the Gulf region, including Kuwait, Dubai, and Saudi Arabia.",
     "ourStoryDescription2": "Our mission is to create life-changing global career opportunities for individuals while providing reliable and ethical workforce solutions to international employers. With a candidate-first approach and a commitment to excellence, we continue to shape successful career journeys abroad.",
     "highlights": [
       "Trusted Overseas Recruitment",
@@ -261,7 +298,7 @@
   }
 },
 "galleryPage": {
-  "subtitle": "Explore Our Recruitment Journey"
+  "subtitle": "Our huge clients base is our biggest strength.  Our quality services enable us to sustain in competitive environment and establish long term commitment with our clients."
 }
 
 }

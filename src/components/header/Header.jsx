@@ -11,15 +11,16 @@ export default async function Header({ locale }) {
 
   const navLinks = [
     { id: 1, title: navigation.home, href: "/" },
-    {
-      id: 2,
-      title: navigation.product,
-      href: "/job-category",
-    },
+    { id: 2, title: navigation.about, href: "/about" },
     { id: 3, title: navigation.services, href: "/services" },
-    { id: 4, title: navigation.gallery, href: "/gallery" },
-    { id: 5, title: navigation.about, href: "/about" },
-    { id: 6, title: navigation.contact, href: "/contact" },
+    { id: 4, title: navigation.gallery, href: "/recruitment" },
+    { id: 5, title: navigation.clients, href: "/clients" },
+     {
+      id: 6,
+      title: navigation.product,
+      href: "/ourgroup",
+    },
+    { id: 7, title: navigation.contact, href: "/contact" },
   ];
 
   return (
@@ -27,10 +28,10 @@ export default async function Header({ locale }) {
       <div className="container mx-auto px-5 flex justify-between items-center">
         <Link href={`/${locale}`} className="inline-block">
           <Image
-            src="/images/borcelle.png"
+            src="/images/alFrahan.png"
             alt="AL Farhan Logo"
-            width={140}
-            height={50}
+            width={35}
+            height={12}
             className="h-auto w-auto object-contain"
           />
         </Link>

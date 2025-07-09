@@ -62,7 +62,7 @@ const ProductsClient = ({ dict, locale }) => {
             </Link>
             {isArabic ? <IoIosArrowBack /> : <IoIosArrowForward />}
             <Link
-              href="/job-category"
+              href="/ourgroup"
               className="text-white hover:text-red-800 duration-300"
             >
               {dict.productsPage.products}

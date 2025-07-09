@@ -41,7 +41,7 @@ const ContactClient = ({ dict, locale }) => {
     {
       icon: <FaPhoneAlt className="text-2xl text-red-800" />,
       title: dict.contactPage.info.phone,
-      details: ["+91 96100 93607"],
+      details: ["+91 8239093607"],
     },
     {
       icon: <FaEnvelope className="text-2xl text-red-800" />,
@@ -81,7 +81,7 @@ const ContactClient = ({ dict, locale }) => {
             </Link>
             {isArabic ? <IoIosArrowBack /> : <IoIosArrowForward />}
             <Link
-              href="/job-category"
+              href="/ourgroup"
               className="text-white hover:text-red-800 duration-300"
             >
               {dict.navigation.contact}

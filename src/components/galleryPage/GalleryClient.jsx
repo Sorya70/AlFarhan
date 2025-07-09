@@ -15,42 +15,56 @@ const GalleryClient = ({ dict, locale }) => {
 
   useEffect(() => {
     const galleryImages = [
-      { id: 1, src: "/images/gallery/0atxcjiQ.jpeg", alt: "Gallery Image 1" },
-      { id: 2, src: "/images/gallery/4Oh7Venw.jpeg", alt: "Gallery Image 2" },
-      { id: 3, src: "/images/gallery/5HcvSqLg.jpeg", alt: "Gallery Image 3" },
-      { id: 4, src: "/images/gallery/7gKBu7CQ.jpeg", alt: "Gallery Image 4" },
-      { id: 5, src: "/images/gallery/9pToLb_w.jpeg", alt: "Gallery Image 5" },
-      { id: 6, src: "/images/gallery/39mYMhRQ.jpeg", alt: "Gallery Image 6" },
-      { id: 7, src: "/images/gallery/212EuAKQ.jpeg", alt: "Gallery Image 7" },
-      { id: 8, src: "/images/gallery/B6UNIGOw.jpeg", alt: "Gallery Image 8" },
-      { id: 9, src: "/images/gallery/BCFQCLOQ.jpeg", alt: "Gallery Image 9" },
-      { id: 10, src: "/images/gallery/FjDXbRRw.jpeg", alt: "Gallery Image 10" },
-      { id: 11, src: "/images/gallery/fUnJA4SQ.jpeg", alt: "Gallery Image 11" },
-      { id: 12, src: "/images/gallery/g2urEGNg.jpeg", alt: "Gallery Image 12" },
-      { id: 13, src: "/images/gallery/Ie9Gj2cw.jpeg", alt: "Gallery Image 13" },
-      { id: 14, src: "/images/gallery/iJkkXg4Q.jpeg", alt: "Gallery Image 14" },
-      { id: 15, src: "/images/gallery/JcmIMURg.jpeg", alt: "Gallery Image 15" },
-      { id: 16, src: "/images/gallery/ki09MOyg.jpeg", alt: "Gallery Image 16" },
-      { id: 17, src: "/images/gallery/l5Pk0Msg.jpeg", alt: "Gallery Image 17" },
-      { id: 18, src: "/images/gallery/Ll5WCgrg.jpeg", alt: "Gallery Image 18" },
-      { id: 19, src: "/images/gallery/0atxcjiQ.jpeg", alt: "Gallery Image 19" },
-      { id: 20, src: "/images/gallery/nCMSP5ag.jpeg", alt: "Gallery Image 20" },
-      { id: 21, src: "/images/gallery/ne9LFRYg.jpeg", alt: "Gallery Image 21" },
-      { id: 22, src: "/images/gallery/OcGBm50A.jpeg", alt: "Gallery Image 22" },
-      { id: 23, src: "/images/gallery/qUaNiO1w.jpeg", alt: "Gallery Image 23" },
-      { id: 24, src: "/images/gallery/r-XXmd_w.jpeg", alt: "Gallery Image 24" },
-      { id: 25, src: "/images/gallery/rbByR6FA.jpeg", alt: "Gallery Image 25" },
-      { id: 26, src: "/images/gallery/T1wcaW9A.jpeg", alt: "Gallery Image 26" },
-      { id: 27, src: "/images/gallery/RQ3vLbUQ.jpeg", alt: "Gallery Image 27" },
-      { id: 28, src: "/images/gallery/U7KbskkQ.jpeg", alt: "Gallery Image 28" },
-      { id: 29, src: "/images/gallery/v5es26ZA.jpeg", alt: "Gallery Image 29" },
-      { id: 30, src: "/images/gallery/vCbbW5Kg.jpeg", alt: "Gallery Image 30" },
-      { id: 31, src: "/images/gallery/VQ6mTapg.jpeg", alt: "Gallery Image 31" },
-      { id: 32, src: "/images/gallery/Vxo14EPQ.jpeg", alt: "Gallery Image 32" },
-      { id: 33, src: "/images/gallery/w7Y6eKdw.jpeg", alt: "Gallery Image 33" },
-      { id: 34, src: "/images/gallery/wbGBgvHA.jpeg", alt: "Gallery Image 34" },
-      { id: 35, src: "/images/gallery/wSXzpNrg.jpeg", alt: "Gallery Image 35" },
-      { id: 36, src: "/images/gallery/WVZgPijQ.jpeg", alt: "Gallery Image 36" },
+      { id: 1, src: "/images/gallery/1.jpg", alt: "Gallery Image 1" },
+      { id: 2, src: "/images/gallery/2.jpg", alt: "Gallery Image 2" },
+      { id: 3, src: "/images/gallery/3.jpg", alt: "Gallery Image 3" },
+      { id: 4, src: "/images/gallery/4.jpg", alt: "Gallery Image 4" },
+      { id: 5, src: "/images/gallery/5.png", alt: "Gallery Image 5" },
+      { id: 6, src: "/images/gallery/6.jpg", alt: "Gallery Image 6" },
+      { id: 7, src: "/images/gallery/7.jpg", alt: "Gallery Image 7" },
+      { id: 8, src: "/images/gallery/8.jpg", alt: "Gallery Image 8" },
+      { id: 9, src: "/images/gallery/9.jpg", alt: "Gallery Image 9" },
+      { id: 10, src: "/images/gallery/10.jpg", alt: "Gallery Image 10" },
+      { id: 11, src: "/images/gallery/11.jpg", alt: "Gallery Image 11" },
+      { id: 12, src: "/images/gallery/12.jpg", alt: "Gallery Image 12" },
+      { id: 13, src: "/images/gallery/13.jpg", alt: "Gallery Image 13" },
+      { id: 14, src: "/images/gallery/14.jpg", alt: "Gallery Image 14" },
+      { id: 15, src: "/images/gallery/15.jpg", alt: "Gallery Image 15" },
+      { id: 16, src: "/images/gallery/16.jpg", alt: "Gallery Image 16" },
+      { id: 17, src: "/images/gallery/17.jpg", alt: "Gallery Image 17" },
+      { id: 18, src: "/images/gallery/18.jpg", alt: "Gallery Image 18" },
+      { id: 19, src: "/images/gallery/19.jpg", alt: "Gallery Image 19" },
+      { id: 20, src: "/images/gallery/20.jpg", alt: "Gallery Image 20" },
+      { id: 21, src: "/images/gallery/21.jpg", alt: "Gallery Image 21" },
+      { id: 22, src: "/images/gallery/22.png", alt: "Gallery Image 22" },
+      { id: 23, src: "/images/gallery/23.jpg", alt: "Gallery Image 23" },
+      { id: 24, src: "/images/gallery/24.jpg", alt: "Gallery Image 24" },
+      { id: 25, src: "/images/gallery/25.jpg", alt: "Gallery Image 25" },
+      { id: 26, src: "/images/gallery/26.jpg", alt: "Gallery Image 26" },
+      { id: 27, src: "/images/gallery/27.jpg", alt: "Gallery Image 27" },
+      { id: 28, src: "/images/gallery/28.jpg", alt: "Gallery Image 28" },
+      { id: 29, src: "/images/gallery/29.jpg", alt: "Gallery Image 29" },
+      { id: 30, src: "/images/gallery/30.jpg", alt: "Gallery Image 30" },
+      { id: 31, src: "/images/gallery/31.jpg", alt: "Gallery Image 31" },
+      { id: 32, src: "/images/gallery/32.jpg", alt: "Gallery Image 32" },
+      { id: 33, src: "/images/gallery/33.jpg", alt: "Gallery Image 33" },
+      { id: 34, src: "/images/gallery/34.jpg", alt: "Gallery Image 34" },
+      { id: 35, src: "/images/gallery/35.jpg", alt: "Gallery Image 35" },
+      { id: 36, src: "/images/gallery/36.jpg", alt: "Gallery Image 36" },
+      { id: 37, src: "/images/gallery/37.jpg", alt: "Gallery Image 37" },
+      { id: 38, src: "/images/gallery/38.jpg", alt: "Gallery Image 38" },
+      { id: 39, src: "/images/gallery/39.jpg", alt: "Gallery Image 39" },
+      { id: 40, src: "/images/gallery/40.jpg", alt: "Gallery Image 40" },
+      { id: 41, src: "/images/gallery/41.jpg", alt: "Gallery Image 41" },
+      { id: 42, src: "/images/gallery/42.jpg", alt: "Gallery Image 42" },
+      { id: 43, src: "/images/gallery/43.jpg", alt: "Gallery Image 43" },
+      { id: 44, src: "/images/gallery/44.jpg", alt: "Gallery Image 44" },
+      { id: 45, src: "/images/gallery/45.jpg", alt: "Gallery Image 45" },
+      { id: 46, src: "/images/gallery/46.jpg", alt: "Gallery Image 46" },
+      { id: 47, src: "/images/gallery/47.jpg", alt: "Gallery Image 47" },
+      { id: 48, src: "/images/gallery/48.jpg", alt: "Gallery Image 48" },
+      { id: 49, src: "/images/gallery/49.jpg", alt: "Gallery Image 49" },
+      { id: 50, src: "/images/gallery/50.jpg", alt: "Gallery Image 50" },
     ];
 
     // Shuffle the images for random display
@@ -104,12 +118,12 @@ const GalleryClient = ({ dict, locale }) => {
               {dict.navigation.home}
             </Link>
             {isArabic ? <IoIosArrowBack /> : <IoIosArrowForward />}
-            {/* <Link
-              href="/job-category"
+            <Link
+              href="/ourgroup"
               className="text-white hover:text-red-800 duration-300"
             >
               {dict.navigation.gallery}
-            </Link> */}
+            </Link>
           </div>
         </div>
       </div>
@@ -117,7 +131,7 @@ const GalleryClient = ({ dict, locale }) => {
       {/* Gallery Section */}
       <section className="py-16 bg-gradient-to-br from-white via-[#f5f7fa] to-white">
         <div className="container mx-auto px-5">
-          <h2 className="text-3xl md:text-4xl font-extrabold text-red-800 mb-12 text-center drop-shadow-lg">
+          <h2 className="text-lg md:text-base font-extrabold text-red-800 mb-12 text-center drop-shadow-lg">
             {dict.galleryPage.subtitle}
           </h2>
 

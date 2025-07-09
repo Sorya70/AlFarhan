@@ -1,4 +1,5 @@
-import ServicesSection from "@/components/HomePage/ServicesSection";
+// import ServicesSection from "@/components/HomePage/ServicesSection";
+import OurGroup from "@/components/HomePage/OurGroup";
 import TestimonialsSection from "@/components/HomePage/TestimonialsSection";
 import { getDictionary } from "@/dictionaries";
 import CallToAction from "@/ui/CallToAction";
@@ -24,25 +25,25 @@ const page = async ({ params }) => {
         <div className="absolute inset-0 bg-black/50 z-0" />
         <div className="relative z-10">
           <h1 className="text-5xl max-sm:text-3xl font-light tracking-wider text-white">
-            {dict.servicesPage.services}
+            {dict.ourgroupPage.ourgroup}
           </h1>
           <div className="flex items-center justify-center mt-4 max-sm:mt-3 text-xs space-x-1 text-white">
             <Link href="/" className="hover:text-red-800 duration-300">
-              {dict.servicesPage.home}
+              {dict.ourgroupPage.home}
             </Link>
             {isArabic ? <IoIosArrowBack /> : <IoIosArrowForward />}
             <Link
               href="/ourgroup"
               className="text-white hover:text-red-800 duration-300"
             >
-              {dict.servicesPage.services}
+              {dict.ourgroupPage.ourgroup}
             </Link>
           </div>
         </div>
       </div>
       <div>
         <div className="-mt-16">
-          <ServicesSection dict={dict} />
+          <OurGroup dict={dict} />
         </div>
         <TestimonialsSection dict={dict} />
         <CallToAction dict={dict} />
