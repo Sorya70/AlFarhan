@@ -7,6 +7,7 @@ import {
   FaYoutube,
   FaLinkedinIn,
 } from "react-icons/fa";
+import { TbDeviceLandlinePhone } from "react-icons/tb";
 import { FiMail, FiPhone, FiMapPin } from "react-icons/fi";
 import Link from "next/link";
 import Image from "next/image";
@@ -95,17 +96,37 @@ const Footer = ({ locale }) => {
                 {dict.footer.contactTitle}
               </h3>
               <ul className="space-y-4">
-                <li className="flex items-start">
+                <li className="flex items-center">
                   <FiMapPin className="mt-1 mx-3 text-red-700" />
                   <span>{dict.footer.address}</span>
                 </li>
                 <li className="flex items-center">
+                  <FiPhone className="mt-1 mx-3 text-red-700" />
+                  <div className="flex flex-col">
+                    {(() => {
+                      const phoneParts = dict.footer.phone.split(" ");
+                      const countryCode = phoneParts[0]; // e.g., +91
+                      const numbers = phoneParts.slice(1); // the phone numbers
+                      return numbers.map((num, index) => (
+                        <a
+                          key={index}
+                          href={`tel:${countryCode}${num}`}
+                          className="hover:text-red-700 transition-colors duration-300"
+                        >
+                          {`${countryCode} ${num}`}
+                        </a>
+                      ));
+                    })()}
+                  </div>
+                </li>
+
+                <li className="flex items-center">
                   <a
-                    href={`tel:${dict.footer.phone.replace(/\s+/g, "")}`}
+                    href={`tel:${(dict.footer.landline || "").replace(/\s+/g, "")}`}
                     className="flex items-center hover:text-red-700 transition-colors duration-300"
                   >
-                    <FiPhone className="mx-3 text-red-700" />
-                    <span>{dict.footer.phone}</span>
+                    <TbDeviceLandlinePhone className="mx-3 text-red-700" />
+                    <span>{dict.footer.landline || "N/A"}</span>
                   </a>
                 </li>
                 <li className="flex items-center">

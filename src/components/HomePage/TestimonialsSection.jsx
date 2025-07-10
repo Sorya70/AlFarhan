@@ -9,8 +9,8 @@ const TestimonialsSection = ({ dict }) => {
   const testimonials = [
     {
       id: 1,
-      name: "Sarah Johnson",
-      image: "/images/users/user1.png",
+      name: "Salim Khan",
+      image: "/images/users/user5.png",
       rating: 5,
       comment: dict.testimonials[0],
       date: "05:42 PM",
@@ -18,7 +18,7 @@ const TestimonialsSection = ({ dict }) => {
     },
     {
       id: 2,
-      name: "Michael Chen",
+      name: "Aziz Khan",
       image: "/images/users/user4.png",
       rating: 5,
       comment: dict.testimonials[1],
@@ -27,8 +27,8 @@ const TestimonialsSection = ({ dict }) => {
     },
     {
       id: 3,
-      name: "Emily Rodriguez",
-      image: "/images/users/user2.png",
+      name: "Noor Mohammed",
+      image: "/images/users/user6.png",
       rating: 4,
       comment: dict.testimonials[2],
       date: "03:02 PM",
@@ -36,7 +36,7 @@ const TestimonialsSection = ({ dict }) => {
     },
     {
       id: 4,
-      name: "David Lee",
+      name: "Mohammad Mustafa",
       image: "/images/users/user4.png",
       rating: 5,
       comment: dict.testimonials[3],
@@ -45,8 +45,8 @@ const TestimonialsSection = ({ dict }) => {
     },
     {
       id: 5,
-      name: "Amina Yusuf",
-      image: "/images/users/user2.png",
+      name: "Rajendra Prasad",
+      image: "/images/users/user5.png",
       rating: 4,
       comment: dict.testimonials[4],
       date: "01:34 PM",
@@ -54,7 +54,7 @@ const TestimonialsSection = ({ dict }) => {
     },
     {
       id: 6,
-      name: "Carlos Martinez",
+      name: "Narendra Kumar",
       image: "/images/users/user6.png",
       rating: 5,
       comment: dict.testimonials[5],
@@ -63,8 +63,8 @@ const TestimonialsSection = ({ dict }) => {
     },
     {
       id: 7,
-      name: "Linda Nguyen",
-      image: "/images/users/user3.png",
+      name: "Imran Khan",
+      image: "/images/users/user5.png",
       rating: 4,
       comment: dict.testimonials[6],
       date: "8:40 PM",
@@ -72,7 +72,7 @@ const TestimonialsSection = ({ dict }) => {
     },
     {
       id: 8,
-      name: "Omar Farouk",
+      name: "Noman",
       image: "/images/users/user4.png",
       rating: 5,
       comment: dict.testimonials[7],
@@ -81,8 +81,8 @@ const TestimonialsSection = ({ dict }) => {
     },
     {
       id: 9,
-      name: "Julia Smith",
-      image: "/images/users/user2.png",
+      name: "Rizwan",
+      image: "/images/users/user6.png",
       rating: 5,
       comment: dict.testimonials[8],
       date: "10:12 PM",

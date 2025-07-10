@@ -41,12 +41,12 @@ const ContactClient = ({ dict, locale }) => {
     {
       icon: <FaPhoneAlt className="text-2xl text-red-800" />,
       title: dict.contactPage.info.phone,
-      details: ["+91 8239093607"],
+      details: ["+91 8239093607 8058100907 9610093607"],
     },
     {
       icon: <FaEnvelope className="text-2xl text-red-800" />,
       title: dict.contactPage.info.email,
-      details: ["info@AlFarhanInternational.com"],
+      details: ["alfarhaninternational1@gmail.com"],
     },
     {
       icon: <FaClock className="text-2xl text-red-800" />,
@@ -227,11 +227,25 @@ const ContactClient = ({ dict, locale }) => {
                 <h3 className="text-xl font-semibold text-red-800 mb-3">
                   {info.title}
                 </h3>
-                {info.details.map((detail, idx) => (
-                  <p key={idx} className="text-gray-600">
-                    {detail}
-                  </p>
-                ))}
+                {info.title === dict.contactPage.info.phone ? (
+                  <div className="flex flex-col text-gray-600">
+                    {info.details[0]
+                      .split(" ") // split all phone numbers by space
+                      .slice(1) // remove the first part (+91)
+                      .map((num, idx) => (
+                        <span key={idx}>
+                          {`${info.details[0].split(" ")[0]} ${num}`}
+                        </span>
+                      ))}
+                  </div>
+                ) : (
+                  info.details.map((detail, idx) => (
+                    <p key={idx} className="text-gray-600">
+                      {detail}
+                    </p>
+                  ))
+                )}
+
               </motion.div>
             ))}
           </div>
