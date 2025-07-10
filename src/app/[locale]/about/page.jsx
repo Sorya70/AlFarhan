@@ -58,15 +58,18 @@ const AboutUs = async ({ params }) => {
         <div className="container mx-auto px-5">
           <div className="flex flex-col md:flex-row items-center gap-10">
             <div className="w-full md:w-1/2">
-              <div className="relative w-full h-64 md:h-[400px]">
+              <div className="relative w-full h-80 md:h-[600px]">
                 <Image
-                  src="/images/alFrahan.png"
+                  src="/images/alfarhanwhite.png"
                   alt="Al Farhan"
-                  fill
-                  className="object-cover rounded-md"
+                  width={800}
+                  height={400}
+                  className="object-cover rounded-md w-full h-full"
+                  quality={90}
                   priority
                 />
               </div>
+
             </div>
 
             <div className="md:w-1/2">

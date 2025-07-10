@@ -28,7 +28,7 @@ export default async function Header({ locale }) {
       <div className="container mx-auto px-5 flex justify-between items-center">
         <Link href={`/${locale}`} className="inline-block">
           <Image
-            src="/images/alFrahan.png"
+            src="/images/alfarhanwhite.png"
             alt="AL Farhan Logo"
             width={35}
             height={12}

@@ -38,7 +38,7 @@ const Footer = ({ locale }) => {
             <div>
               <div className="mb-6 flex items-center">
                 <Image
-                  src="/images/Alfarhan.png"
+                  src="/images/alfarhanbg.png"
                   alt="Al Farhan"
                   width={110}
                   height={20}

@@ -157,7 +157,7 @@
       "descOne": "Andulus International is a fast growing, government licensed manpower recruitment company with an ever-increasing list of satisfied clients. We specialize for recruitment of technical, skilled manpower and professionals. Andulus International has a flexible approach and can work to specific requirements of particular projects / clients can also establish and provide a complete team of workers specialists, who can carry out common or specific tasks independently.",
       "descTwo": "Our Office is well equipped with computers, Fax and email services and it has always been our intention to provide better services to our clients with the help of our highly professional staff. Our Chief Executive supervises all activities relating to the hiring & processing of visa. We provide highly qualified and skilled manpower that meets the standard of our valued clients. We also ensure that our Clients are served in a better way and all processing is conducted within the time, which is the ` required satisfaction of our clients."
     },
-     {
+    {
       "id": 6,
       "title": "Undulus Way International Co",
       "descOne": "Like many branches in each part of the Globe, we made our set-up in KSA too to focus the companies located in eastern part of KSA. We noticed that East part of the KSA is full of Industries and recruiting the new workers regularly from overseas, particularly form India, Pakistan & Bangladesh.",
@@ -276,29 +276,31 @@
       }
     ]
   },
- "contactPage": {
-  "title": "Reach Out to Us",
-  "getTitle": "Get in Touch",
-  "subtitle": "Looking to work abroad or hire international talent? Fill out the form below and our team will contact you shortly.",
-  "form": {
-    "name": "Your Name",
-    "email": "Your Email",
-    "subject": "Subject",
-    "message": "Your Message",
-    "submit": "Submit Inquiry"
+  "contactPage": {
+    "title": "Reach Out to Us",
+    "getTitle": "Get in Touch",
+    "subtitle": "Looking to work abroad or hire international talent? Fill out the form below and our team will contact you shortly.",
+    "form": {
+      "name": "Your Name",
+      "email": "Your Email",
+      "subject": "Subject",
+      "message": "Your Message",
+      "submit": "Submit Inquiry"
+    },
+    "locationTitle": "Visit Our Office",
+    "info": {
+      "location": "Our Office Location",
+      "phone": "Phone Number",
+      "email": "Email Address",
+      "hours": "Office Hours",
+      "workingDays": "Monday - Saturday: 10:00 AM - 6:00 PM",
+      "sunday": "Sunday: Closed"
+    }
   },
-  "locationTitle": "Visit Our Office",
-  "info": {
-    "location": "Our Office Location",
-    "phone": "Phone Number",
-    "email": "Email Address",
-    "hours": "Office Hours",
-    "workingDays": "Monday - Saturday: 10:00 AM - 6:00 PM",
-    "sunday": "Sunday: Closed"
+  "galleryPage": {
+    "subtitle": "Our huge clients base is our biggest strength.  Our quality services enable us to sustain in competitive environment and establish long term commitment with our clients."
+  },
+  "recruitmentPage": {
+    "subtitle": "We do this by ensuring that our clients' expectations and needs are out priorities and placing candidates with right skills"
   }
-},
-"galleryPage": {
-  "subtitle": "Our huge clients base is our biggest strength.  Our quality services enable us to sustain in competitive environment and establish long term commitment with our clients."
-}
-
 }

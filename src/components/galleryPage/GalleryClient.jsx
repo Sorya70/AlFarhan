@@ -111,7 +111,7 @@ const GalleryClient = ({ dict, locale }) => {
         <div className="absolute inset-0 bg-black/50 z-0" />
         <div className="relative z-10">
           <h1 className="text-5xl max-sm:text-3xl font-light tracking-wider text-white">
-            {dict.navigation.gallery}
+            {dict.navigation.clients}
           </h1>
           <div className="flex items-center justify-center mt-4 max-sm:mt-3 text-xs space-x-1 text-white">
             <Link href="/" className="hover:text-red-800 duration-300">
@@ -122,7 +122,7 @@ const GalleryClient = ({ dict, locale }) => {
               href="/ourgroup"
               className="text-white hover:text-red-800 duration-300"
             >
-              {dict.navigation.gallery}
+              {dict.navigation.clients}
             </Link>
           </div>
         </div>
@@ -141,7 +141,7 @@ const GalleryClient = ({ dict, locale }) => {
             </div>
           ) : (
             <motion.div
-              className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4"
+              className="grid grid-cols-3 sm:grid-cols-3 md:grid-cols-5 lg:grid-cols-7 gap-3"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ duration: 0.5 }}
@@ -149,7 +149,7 @@ const GalleryClient = ({ dict, locale }) => {
               {images.map((image, index) => (
                 <motion.div
                   key={image.id}
-                  className="relative overflow-hidden rounded-lg shadow-lg aspect-square"
+                  className="relative overflow-hidden rounded-lg shadow-lg w-32 h-32 sm:w-40 sm:h-40"
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ delay: index * 0.1, duration: 0.5 }}
@@ -166,7 +166,7 @@ const GalleryClient = ({ dict, locale }) => {
                       priority={index < 8} // Prioritize loading the first 8 images
                       onError={(e) => {
                         console.log(`Error loading image: ${image.src}`);
-                        e.target.src = "/images/hero/hero-1.png"; // Fallback image
+                        e.target.src = "/images/hero/bannar_1.jpg"; // Fallback image
                       }}
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent opacity-0 hover:opacity-100 transition-opacity duration-300 flex items-end p-4">
@@ -225,7 +225,7 @@ const GalleryClient = ({ dict, locale }) => {
               height={800}
               className="object-contain w-full h-full"
               onError={(e) => {
-                e.target.src = "/images/hero/hero-1.png"; // Fallback image
+                e.target.src = "/images/hero/bannar_1.jpg"; // Fallback image
               }}
             />
           </motion.div>

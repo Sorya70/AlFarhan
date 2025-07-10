@@ -21,7 +21,7 @@ const HeroSection = ({ dict }) => {
   const heroSectionSwiper = [
     {
       id: 1,
-      image: "/images/hero/hero-1.png",
+      image: "/images/hero/bannar_1.jpg",
       discount: dict.hero.slides[0].discount,
       name: dict.hero.slides[0].name,
       description: dict.hero.slides[0].description,
@@ -29,7 +29,7 @@ const HeroSection = ({ dict }) => {
     },
     {
       id: 2,
-      image: "/images/hero/hero-2.png",
+      image: "/images/hero/bannar_2.jpg",
       discount: dict.hero.slides[1].discount,
       name: dict.hero.slides[1].name,
       description: dict.hero.slides[1].description,
@@ -37,7 +37,7 @@ const HeroSection = ({ dict }) => {
     },
     {
       id: 3,
-      image: "/images/hero/hero-33.jpeg",
+      image: "/images/hero/bannar_4.jpg",
       discount: dict.hero.slides[2].discount,
       name: dict.hero.slides[2].name,
       description: dict.hero.slides[2].description,
