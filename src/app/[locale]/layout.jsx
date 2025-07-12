@@ -28,20 +28,20 @@ export default async function RootLayout({ children, params }) {
         <meta name="robots" content="index, follow" />
 
         {/* Canonical URL */}
-        <link rel="canonical" href="https://al-farhan-xi.vercel.app" />
+        <link rel="canonical" href="https://alfarhaninternational.com" />
 
         {/* Open Graph (Facebook, WhatsApp) */}
         <meta property="og:type" content="website" />
         <meta property="og:title" content={metadata.title} />
         <meta property="og:description" content={metadata.description} />
-        <meta property="og:url" content="https://al-farhan-xi.vercel.app" />
-        <meta property="og:image" content="https://al-farhan-xi.vercel.app/og-image.png" />
+        <meta property="og:url" content="https://alfarhaninternational.com" />
+        <meta property="og:image" content="https://alfarhaninternational.com/og-image.png" />
 
         {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={metadata.title} />
         <meta name="twitter:description" content={metadata.description} />
-        <meta name="twitter:image" content="https://al-farhan-xi.vercel.app/og-image.png" />
+        <meta name="twitter:image" content="https://alfarhaninternational.com/og-image.png" />
 
         {/* JSON-LD Local Business Schema */}
         <script
@@ -51,10 +51,10 @@ export default async function RootLayout({ children, params }) {
               "@context": "https://schema.org",
               "@type": "EmploymentAgency",
               "name": "Al Farhan International",
-              "image": "https://al-farhan-xi.vercel.app/logo.png",
+              "image": "https://alfarhaninternational.com/logo.png",
               "email": "team.alfarhan@gmail.com",
               "telephone": "+91-9785767664",
-              "url": "https://al-farhan-xi.vercel.app",
+              "url": "https://alfarhaninternational.com",
               "address": {
                 "@type": "PostalAddress",
                 "streetAddress": "opposite jangir bhawan complex",

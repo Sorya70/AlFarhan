@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://al-farhan-xi.vercel.app
+Host: https://alfarhaninternational.com
 
 # Sitemaps
-Sitemap: https://al-farhan-xi.vercel.app/sitemap.xml
+Sitemap: https://alfarhaninternational.com/sitemap.xml

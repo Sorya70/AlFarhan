@@ -1,6 +1,6 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-  siteUrl: 'https://al-farhan-xi.vercel.app',
+  siteUrl: 'https://alfarhaninternational.com',
   generateRobotsTxt: true,
   sitemapSize: 5000,
   changefreq: 'weekly',
@@ -11,7 +11,7 @@ module.exports = {
       { userAgent: '*', allow: '/' }
     ],
     additionalSitemaps: [
-      'https://al-farhan-xi.vercel.app/sitemap.xml'
+      'https://alfarhaninternational.com/sitemap.xml'
     ]
   }
 };

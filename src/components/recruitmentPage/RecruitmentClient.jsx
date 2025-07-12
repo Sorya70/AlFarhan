@@ -79,6 +79,25 @@ const RecruitmentClient = ({ dict, locale }) => {
         </div>
       </div>
 
+      {/* {content } */}
+      {/* Recruitment Steps Section */}
+      <section className="py-10 bg-white">
+        <div className="container mx-auto px-5 max-w-4xl">
+          <p className="text-md text-gray-700 mb-6 leading-relaxed text-justify">
+            {dict.recruitmentPage.overview}
+          </p>
+          <div className="space-y-6">
+            {dict.recruitmentPage.steps.map((step, index) => (
+              <div key={index}>
+                <h3 className="text-lg font-bold text-red-800 mb-2">{step.title}</h3>
+                <p className="text-gray-600 leading-relaxed">{step.description}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+
       {/* Gallery Section */}
       <section className="py-16 bg-gradient-to-br from-white via-[#f5f7fa] to-white">
         <div className="container mx-auto px-5">

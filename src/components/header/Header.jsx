@@ -20,7 +20,8 @@ export default async function Header({ locale }) {
       title: navigation.product,
       href: "/ourgroup",
     },
-    { id: 7, title: navigation.contact, href: "/contact" },
+    { id: 7, title: navigation.career, href: "/career" },
+    { id: 8, title: navigation.contact, href: "/contact" },
   ];
 
   return (

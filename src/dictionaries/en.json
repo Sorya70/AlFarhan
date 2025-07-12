@@ -5,6 +5,7 @@
     "services": "Services",
     "gallery": "Recruitment Process",
     "clients": "Our Clients",
+    "career": "Career",
     "about": "About Us",
     "contact": "Contact Us"
   },
@@ -68,6 +69,19 @@
   "video": {
     "title": "Get to Know Us",
     "description": "Discover our services and values in this short introduction video."
+  },
+  "recruitment": {
+    "formTitle": "Submit Your Resume",
+    "formSubtitle": "Join our dynamic team by uploading your resume below.",
+    "form": {
+      "name": "Full Name",
+      "email": "Email Address",
+      "mobile": "Mobile Number",
+      "resume": "Upload Resume",
+      "submit": "Submit Application"
+    },
+    "openingTitle": "Current Job Openings",
+    "applyNow": "Apply Now"
   },
   "aboutSection": {
     "badge": "Who We Are",
@@ -306,6 +320,41 @@
     "subtitle": "Our huge clients base is our biggest strength.  Our quality services enable us to sustain in competitive environment and establish long term commitment with our clients."
   },
   "recruitmentPage": {
-    "subtitle": "We do this by ensuring that our clients' expectations and needs are out priorities and placing candidates with right skills"
+    "subtitle": "We do this by ensuring that our clients' expectations and needs are out priorities and placing candidates with right skills",
+    "overview": "At Al Farhan International, we understand that employees are a company’s most valuable investment. As such, we follow a stringent procedure to recruit employees that best address talent requirements...",
+    "steps": [
+      {
+        "title": "Step One: Comprehensive Assessment of Client Requirements",
+        "description": "Al Farhan tailors its selection process to each client. We undertake a detailed review of your organization, sign an MoU, and collect necessary documents to begin recruitment."
+      },
+      {
+        "title": "Step Two: Advertising",
+        "description": "We build a detailed job description and advertise through targeted media including print, internet, mailing lists, SMS campaigns, and referrals."
+      },
+      {
+        "title": "Step Three: Filtering Resumes",
+        "description": "We receive resumes securely, sort and categorize them, and use subject experts to shortlist suitable candidates."
+      },
+      {
+        "title": "Step Four: Assessment",
+        "description": "We conduct technical, trade, and behavioral assessments, and arrange interviews if needed."
+      },
+      {
+        "title": "Step Five: Shortlist Creation",
+        "description": "All filtered resumes are pooled together to form a final shortlist, along with assessment results."
+      },
+      {
+        "title": "Step Six: Presentation to the Employer / Client Selection",
+        "description": "Shortlisted candidates are presented to the client. Once selected, salary is negotiated and contract signed. Documentation begins immediately."
+      },
+      {
+        "title": "Step Seven: Processing",
+        "description": "Includes medical testing, visa processing, background checks, and passport stamping. Specialized teams handle this efficiently."
+      },
+      {
+        "title": "Step Eight: Candidate Mobilization",
+        "description": "We coordinate travel, issue checklists, and ensure meet & greet at destination. Pre-travel induction is done if required."
+      }
+    ]
   }
 }
