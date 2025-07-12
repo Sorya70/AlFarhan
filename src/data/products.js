@@ -1,6 +1,6 @@
 const productsData = [
   {
-    slug: "Construction Workers",
+    slug: "Saudi Arabia",
     items: [
       {
         id: crypto.randomUUID(),
@@ -23,7 +23,7 @@ const productsData = [
     ],
   },
   {
-    slug: "Drivers",
+    slug: "Dubai",
     items: [
       {
         id: crypto.randomUUID(),
@@ -52,7 +52,7 @@ const productsData = [
     ],
   },
   {
-    slug: "Hospitality Staff",
+    slug: "Qatar",
     items: [
       {
         id: crypto.randomUUID(),
@@ -105,7 +105,7 @@ const productsData = [
     ],
   },
   {
-    slug: "Healthcare Professionals",
+    slug: "Bahrian",
     items: [
       {
         id: crypto.randomUUID(),
@@ -146,7 +146,7 @@ const productsData = [
     ],
   },
   {
-    slug: "Technicians",
+    slug: "Oman",
     items: [
       {
         id: crypto.randomUUID(),
@@ -169,7 +169,7 @@ const productsData = [
     ],
   },
   {
-    slug: "Security Personnel",
+    slug: "Kuwait",
     items: [
       {
         id: crypto.randomUUID(),
@@ -192,7 +192,7 @@ const productsData = [
     ],
   },
   {
-    slug: "Office Staff",
+    slug: "Europe",
     items: [
       {
         id: crypto.randomUUID(),
@@ -213,60 +213,7 @@ const productsData = [
         inStock: true,
       },
     ],
-  },
-  {
-    slug: "Cleaning & Maintenance",
-    items: [
-      {
-        id: crypto.randomUUID(),
-        name: "ALFarhanInternational",
-        image: "/images/products/tomato-paste/royals.jpg",
-        inStock: true,
-      },
-      {
-        id: crypto.randomUUID(),
-        name: "ALFarhanInternational",
-        image: "/images/products/tomato-paste/DW26ePIg.png",
-        inStock: true,
-      },
-      {
-        id: crypto.randomUUID(),
-        name: "ALFarhanInternational",
-        image: "/images/products/tomato-paste/BpodoGxw.png",
-        inStock: true,
-      },
-    ],
-  },
-  {
-    slug: "Retail & Sales Staff",
-    items: [
-      {
-        id: crypto.randomUUID(),
-        name: "ALFarhanInternational",
-        image:
-          "/images/products/rice/9d55a00c028460da0ae4d4e29289ea8b.jpg_720x720q80.jpg",
-        inStock: true,
-      },
-      {
-        id: crypto.randomUUID(),
-        name: "ALFarhanInternational",
-        image:
-          "/images/products/rice/181367351_169410801761184_8417732091264742445_n.jpg",
-        inStock: true,
-      },
-    ],
-  },
-  {
-    slug: "Other Job Roles",
-    items: [
-      {
-        id: crypto.randomUUID(),
-        name: "ALFarhanInternational",
-        image: "/images/products/soap/soap.jpg",
-        inStock: true,
-      },
-    ],
-  },
+  }
 ];
 
 export default productsData;

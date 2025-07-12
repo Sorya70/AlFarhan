@@ -179,7 +179,7 @@ const Footer = ({ locale }) => {
             </div>
             <div className="mt-2 text-center text-sm text-gray-500">
               {dict.footer.powered}{" "}
-              <span className="font-semibold text-sky-400">Namedox Solutions</span>
+              <span className="font-semibold text-sky-400">Surian IT Solutions</span>
             </div>
           </div>
         </div>

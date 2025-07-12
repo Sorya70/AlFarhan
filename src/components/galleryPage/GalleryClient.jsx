@@ -1,5 +1,6 @@
 "use client";
 
+import productsData from "@/data/products";
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
@@ -12,6 +13,23 @@ const GalleryClient = ({ dict, locale }) => {
   const [images, setImages] = useState([]);
   const [selectedImage, setSelectedImage] = useState(null);
   const [loading, setLoading] = useState(true);
+
+  const [selectedCategory, setSelectedCategory] = useState("all");
+
+  // Create a list of category slugs
+  const categorySlugs = ["all", ...productsData.map((product) => product.slug)];
+
+  // Flatten all products to count items in each category
+  const allProducts = productsData.flatMap((category) =>
+    category.items.map((item) => ({
+      ...item,
+      category: category.slug,
+    }))
+  );
+
+  const handleCategoryChange = (category) => {
+    setSelectedCategory(category);
+  };
 
   useEffect(() => {
     const galleryImages = [
@@ -131,6 +149,30 @@ const GalleryClient = ({ dict, locale }) => {
       {/* Gallery Section */}
       <section className="py-16 bg-gradient-to-br from-white via-[#f5f7fa] to-white">
         <div className="container mx-auto px-5">
+            <div className="my-6">
+          <div className="flex flex-wrap gap-3 justify-center">
+            {categorySlugs.map((slug) => (
+              <button
+                key={slug}
+                onClick={() => handleCategoryChange(slug)}
+                className={`px-5 py-2 capitalize rounded-md text-sm font-medium transition-colors ${selectedCategory === slug
+                  ? "bg-red-800 text-white"
+                  : "bg-gray-100 hover:bg-gray-200 border border-gray-300"
+                  }`}
+              >
+                {slug === "all"
+                  ? dict.productsPage.all
+                  : dict.productsPage.categoryNames[slug] || slug}
+                {/* <span className="mx-2 bg-white text-red-800 px-2 py-0.5 rounded-full text-xs">
+                  {slug === "all"
+                    ? allProducts.length
+                    : allProducts.filter((product) => product.category === slug)
+                      .length}
+                </span> */}
+              </button>
+            ))}
+          </div>
+        </div>
           <h2 className="text-lg md:text-base font-extrabold text-red-800 mb-12 text-center drop-shadow-lg">
             {dict.galleryPage.subtitle}
           </h2>

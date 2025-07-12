@@ -15,7 +15,7 @@ export default async function Header({ locale }) {
     { id: 3, title: navigation.services, href: "/services" },
     { id: 4, title: navigation.gallery, href: "/recruitment" },
     { id: 5, title: navigation.clients, href: "/clients" },
-     {
+    {
       id: 6,
       title: navigation.product,
       href: "/ourgroup",
@@ -30,11 +30,13 @@ export default async function Header({ locale }) {
           <Image
             src="/images/alfarhanwhite.png"
             alt="AL Farhan Logo"
-            width={35}
-            height={12}
-            className="h-auto w-auto object-contain"
+            width={400}
+            height={100}
+            className="h-[70px] w-auto object-contain"
+            priority
           />
         </Link>
+
 
         <Navbar navLinks={navLinks} locale={locale} />
         <div className="flex lg:hidden">
