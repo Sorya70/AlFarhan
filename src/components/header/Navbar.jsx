@@ -7,7 +7,7 @@ const Navbar = ({ navLinks, locale }) => {
 
   return (
     <nav>
-      <ul className="hidden lg:flex items-center justify-between gap-7 font-bold capitalize">
+      <ul className="hidden lg:flex items-center justify-between gap-5 font-bold capitalize">
         {navLinks.map((link) => {
           const fullHref = `/${locale}${link.href}`;
 

@@ -35,19 +35,64 @@ const AboutSection = ({ dict }) => {
             </li>
           </ul>
         </div>
-        <div className="relative z-10 flex-1 flex justify-center items-center">
-          <div className="rounded-3xl flex overflow-hidden shadow-2xl border-2 border-gray-100 transition-transform hover:scale-105 duration-300">
-            <Image
-              src="/images/alfarhanwhite.png"
-              alt="Al Farhan logo"
-              width={420}
-              height={280}
-              className="object-cover w-full h-72"
-              priority
-            />
+        <div className="relative z-10 flex-1 grid grid-cols-2 grid-rows-2 gap-4 justify-center items-center">
+          {/* Image 1 */}
+          <div className="flex flex-col items-center text-center">
+            <div className="rounded-2xl overflow-hidden shadow-lg border border-gray-200">
+              <Image
+                src="/images/about/mea.jpg"
+                alt="MEA Registration"
+                width={200}
+                height={150}
+                className="w-full h-full object-cover"
+              />
+            </div>
+            <p className="mt-2 text-sm font-medium text-gray-700">Licensed by Ministry of External Affairs (MEA)</p>
           </div>
+
+          {/* Image 2 */}
+          <div className="flex flex-col items-center text-center">
+            <div className="rounded-2xl overflow-hidden shadow-lg border border-gray-200">
+              <Image
+                src="/images/about/ISO-2015-Certified.png"
+                alt="ISO 2015 Certified"
+                width={200}
+                height={150}
+                className="w-full h-full object-cover"
+              />
+            </div>
+            <p className="mt-2 text-sm font-medium text-gray-700">ISO 9001:2015 Ceritified</p>
+          </div>
+
+          {/* Image 3 */}
+          <div className="flex flex-col items-center text-center">
+            <div className="rounded-2xl overflow-hidden shadow-lg border border-gray-200">
+              <Image
+                src="/images/about/10-years.png"
+                alt="10+ Years of Excellence"
+                width={200}
+                height={150}
+                className="w-full h-full object-cover"
+              />
+            </div>
+            <p className="mt-2 text-sm font-medium text-gray-700">10+ Years of Excellence</p>
+          </div>
+
+          {/* Image 4 */}
+          <div className="flex flex-col items-center text-center">
+            <div className="rounded-2xl overflow-hidden shadow-lg border border-gray-200">
+              <Image
+                src="/images/alfarhanbody.png"
+                alt="Company Profile"
+                width={200}
+                height={150}
+                className="w-full h-full object-cover"
+              />
+            </div>
+            <p className="mt-2 text-sm font-medium text-gray-700">Company Profile</p>
+          </div>
+        </div>      
         </div>
-      </div>
     </section>
   );
 };

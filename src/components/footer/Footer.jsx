@@ -41,8 +41,8 @@ const Footer = ({ locale }) => {
                 <Image
                   src="/images/alfarhanbg.png"
                   alt="Al Farhan"
-                  width={110}
-                  height={20}
+                  width={220}
+                  height={40}
                   className="mx-3"
                 />
               </div>

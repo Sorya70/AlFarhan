@@ -58,9 +58,9 @@ const AboutUs = async ({ params }) => {
         <div className="container mx-auto px-5">
           <div className="flex flex-col md:flex-row items-center gap-10">
             <div className="w-full md:w-1/2">
-              <div className="relative w-full h-80 md:h-[600px]">
+              <div className="relative w-full h-84 md:h-[400px]">
                 <Image
-                  src="/images/alfarhanwhite.png"
+                  src="/images/alfarhanbody.png"
                   alt="Al Farhan"
                   width={800}
                   height={400}
