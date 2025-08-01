@@ -46,7 +46,7 @@ const ContactClient = ({ dict, locale }) => {
     {
       icon: <FaEnvelope className="text-2xl text-red-800" />,
       title: dict.contactPage.info.email,
-      details: ["team.alfarhan@gmail.com"],
+      details: ["alfarhaninternational1@gmail.com  alfarhan07travel@gmail.com"],
     },
     {
       icon: <FaClock className="text-2xl text-red-800" />,
